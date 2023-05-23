@@ -1,0 +1,72 @@
+
+  /* Hoodie 1 Page */
+  .hoodie1-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Product Image */
+  .hoodie1-page .product-image {
+    width: 40%;
+    margin-right: 20px;
+  }
+  
+  /* Product Description */
+  .hoodie1-page .product-description {
+    width: 50%;
+    text-align: left;
+  }
+  
+  /* Customer Reviews */
+  .hoodie1-page .review {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Back to Home and Cart Buttons */
+  .hoodie1-page .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .hoodie1-page .back-to-home-button,
+  .hoodie1-page .cart-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .hoodie1-page .back-to-home-button {
+    margin-right: 30px;
+  }
+  .reviews {
+    font-family: Arial, sans-serif;
+    margin: 30px 0;
+    text-align: center;
+  }
+  
+  .review {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review p {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  .review strong {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
