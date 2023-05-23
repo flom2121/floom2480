@@ -81,7 +81,6 @@
     font-size: 50px;
     color: #666;
   }
-  
   .rating:not(:checked) > label:before {
     content: '★';
   }
